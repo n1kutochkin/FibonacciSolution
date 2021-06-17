@@ -4,13 +4,6 @@ import algo.FibonacciClassicIterative;
 import algo.FibonacciInterface;
 import algo.FibonacciRecursive;
 public class Fibonacci {
-
-    private static ArrayList<Integer> sequence = new ArrayList<>();
-
-    static {
-        sequence.add(0);
-        sequence.add(1);
-    }
     public static void main(String[] args) {
 
         FibonacciInterface fibonacciIter = new FibonacciClassicIterative();
